@@ -1,0 +1,31 @@
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    text-align: center;
+}
+
+/* .btn{
+    background-color: rgb(177, 13, 13);
+    color: white;
+    margin-top: 5px;
+} */
+
+.btn-r{
+    margin-left: 50px;
+}
+
+.btn-like{
+    background-color: rgb(177, 13, 13);
+    color: white;
+    margin-top: 5px;
+    border: rgb(177, 13, 13);
+}
+
+.btn-dislike{
+    background-color: rgb(87, 82, 82);
+    color: white;
+    margin-top: 5px;
+}

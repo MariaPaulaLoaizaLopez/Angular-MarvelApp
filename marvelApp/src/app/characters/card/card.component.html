@@ -1,0 +1,34 @@
+
+    <div class="card-container">
+      <div class="card card-small" >
+        <div class="row">
+          <div class="col-6">
+            <img class="image" src="{{image.path}}.{{image.extension}}"
+            alt="{{name}}">
+          </div>
+          <div class="col-6">
+            <h4 >{{name}}</h4><br>
+            <p >{{description}}</p>
+            <button class="btn" [routerLink]="['/characters',idCharacter]">view more</button>
+          </div>  
+        </div> <br>
+        <div class="row">
+          <h6>Related Comics</h6>
+          <div class="col-6">
+            <a class="comic-name" (click)="openModal(getComicId(relatedComics[0]))"><span>{{relatedComics[0]?.name}}</span></a><br>
+            <a class="comic-name" (click)="openModal(getComicId(relatedComics[1]))"><span>{{relatedComics[1]?.name}}</span></a><br>
+          </div>
+          <div class="col-6">
+            <a class="comic-name" (click)="openModal(getComicId(relatedComics[2]))"><span>{{relatedComics[2]?.name}}</span></a><br>
+            <a class="comic-name"  (click)="openModal(getComicId(relatedComics[3]))"><span >{{relatedComics[3]?.name}}</span></a>
+          </div>
+        </div>
+        
+        
+    </div>
+
+    
+
+
+
+  

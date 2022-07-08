@@ -1,0 +1,22 @@
+.btn{
+    background-color: #053268;
+    color: white;
+    margin-left: 10px;
+  }
+
+  .ngx-pagination {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    width: 500px;
+    background-color: aliceblue;
+}
+
+.ngx-pagination .current {
+  padding: 0.1875rem 0.625rem;
+  background: #e87121;
+  color: #fefefe;
+  cursor: default;
+}
+
+  

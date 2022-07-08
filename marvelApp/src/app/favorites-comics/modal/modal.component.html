@@ -1,0 +1,21 @@
+
+  <div class="modal-header">
+    <h4 class="modal-title">{{comic?.title}}</h4>
+    <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+  </div>
+  <div class="modal-body">
+    <div class="row">
+      <div class="col-6">
+          <img class="image" src="{{comic?.thumbnail?.path}}.{{comic?.thumbnail?.extension}}">
+      </div>
+      <div class="col-6">
+            <p>{{comic?.description}}</p>
+      </div>
+    </div>
+    <!-- <button class="btn" (click)="addComic(comic.thumbnail)">Add to favorites</button>
+    <button class="btn-r" (click)="removeComic()">remove of favorites</button> -->
+    <button [ngClass]="{'btn btn-like': !comicLiked, 'btn btn-dislike' : comicLiked}"
+    (click)=" Onclick(comic.thumbnail)">{{comicLiked? 'Remove of favorites':'Add to favorites'}}</button>
+  </div>
+  
+  

@@ -3,18 +3,14 @@
 
 <div class="content" role="main">
 
-  <input type="hidden" #selection>
-
   <div class="row">
     <div class="col-9">
       <div class="container">
-        <app-characters-list></app-characters-list>
+        <router-outlet></router-outlet>
       </div> 
     </div>
     <div class="col-3">
-      <div class="container">
-        <app-favorites-comics></app-favorites-comics>
-      </div>
+      <app-favorites-comics></app-favorites-comics>
     </div>
   </div>
 

@@ -1,0 +1,8 @@
+<div class="container">
+    <h3>Favorites Comics</h3>
+    <div *ngFor="let favoriteComic of favoritesComics">
+        <app-favorite-comic [favoriteComic]="favoriteComic" (ComicId)="getFavoritesComics()"></app-favorite-comic>
+    </div>
+</div>
+
+

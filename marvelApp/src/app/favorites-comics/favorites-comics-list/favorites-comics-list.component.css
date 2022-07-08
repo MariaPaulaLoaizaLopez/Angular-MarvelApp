@@ -1,0 +1,9 @@
+
+ .container{
+    background: linear-gradient(to bottom right, rgb(177, 13, 13), rgb(3, 0, 0));
+    min-height: 700px;
+ }
+
+ h3{
+   color: aliceblue;
+ }

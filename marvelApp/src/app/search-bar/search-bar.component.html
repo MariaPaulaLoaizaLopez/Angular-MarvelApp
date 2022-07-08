@@ -1,4 +1,4 @@
-<form class="form-inline my-2 my-lg-0">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form>
+<div class="col-md-6" style="display: flex;">
+    <input class="form-control mr-sm-2" type="search" [(ngModel)]="searchParams" placeholder="Search"> 
+    <button class="btn-sm" (click)="search()" type="submit">Search</button>
+</div>
