@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/marvelApp"
+  publish = "dist/marvel-app"
   command = "npm run build"
 [[redirects]]
   from = "/*"
